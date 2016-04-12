@@ -1,2 +1,2 @@
-# regalboss.github.io
+# http://regalboss.github.io
 My portfolio
