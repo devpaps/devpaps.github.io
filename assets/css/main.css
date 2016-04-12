@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   color: #333;
-  background-image: url(/assets/pic/Ice.png);
+  background-image: url(/assets/css/Ice.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -59,7 +59,7 @@ h1 {
 }
 
 .img {
-  background: url(/assets/pic/me.jpg);
+  background: url(/assets/css/me.jpg);
   margin: 3rem 3rem 0 4rem;
   border-radius: 50%;
   width: 250px;
