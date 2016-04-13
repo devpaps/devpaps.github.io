@@ -104,7 +104,7 @@ h1 {
 }
 
 .main-pic {
-  background: url(/assets/css/tåsjö.jpg);
+  background: url(/assets/pic/tåsjö.jpg);
   height: 300px;
   width: 50%;
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
