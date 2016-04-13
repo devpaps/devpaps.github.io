@@ -61,7 +61,7 @@ h1 {
 .img {
   background: url(/assets/pic/me.jpg);
   margin: 3rem 3rem 0 4rem;
-  border-radius: 50%;
+  border-radius: 30%;
   width: 250px;
   height: 250px;
   background-size: cover;
@@ -70,7 +70,7 @@ h1 {
   -webkit-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.75);
-  border: 5px solid #000;
+  border: 4px solid #fff;
   float: left;
 }
 
