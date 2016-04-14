@@ -166,7 +166,7 @@ hr {
 
     .img {
       float: none;
-      margin: 5rem auto;
+      margin: 5rem auto 1rem;
     }
 
     .info h1 {
@@ -179,7 +179,7 @@ hr {
     .info p {
       float: none;
       margin: auto;
-      width: 60%;
+      width: 80%;
       padding-top: 1rem;
     }
 
