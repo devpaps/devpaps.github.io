@@ -152,8 +152,10 @@ hr {
   padding-top: 1rem;
 }
 
-@media  screen and (min-width: 1024px) {
-    main-text {
+/*---Media Queries!!---*/
+
+@media only screen and (max-width: 780px) {
+    .main-text {
         color: white;
     }
 }
