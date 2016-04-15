@@ -155,36 +155,3 @@ hr {
 }
 
 /*---Media Queries!!---*/
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait)  {
-  .info h1 {
-    margin-top: 2.5rem;
-    width: 45%;
-  }
-
-  .info p {
-    width: 45%;
-  }
-
-  .main-text {
-    width: 45%;
-  }
-
-  .social img {
-    width: 37px;
-  }
-}
-
-@media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px)
-and (orientation : portrait) {
-  .header h1 {
-    font-weight: normal;
-    font-size: 2rem;
-  }
-
-}
