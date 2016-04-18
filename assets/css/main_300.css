@@ -132,7 +132,7 @@ h1 {
   -moz-transition: opacity .55s ease;
 }
 
-.main:hover .main-text {
+.main .main-text {
   opacity: 1;
 }
 
