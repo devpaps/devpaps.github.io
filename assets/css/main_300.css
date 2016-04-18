@@ -132,7 +132,7 @@ h1 {
   -moz-transition: opacity .55s ease;
 }
 
-.main .main-text {
+.main:focus .main-text {
   opacity: 1;
 }
 
