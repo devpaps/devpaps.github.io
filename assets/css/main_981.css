@@ -103,16 +103,15 @@ h1 {
 }
 
 .main-pic {
-  background: url(/assets/pic/tåsjö.jpg);
-  height: 250px;
-  width: 45%;
+    background: url(/assets/pic/tasjo1200jpg);
+  height: auto;
+  width: 49%;
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 2rem;
   float: right;
 }
 
