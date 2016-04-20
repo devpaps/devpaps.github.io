@@ -11,10 +11,9 @@ body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   color: #333;
-  background-image: url(/assets/pic/Ice.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: linear-gradient(to bottom,  #bed0d0 0%,#e6eded 100%);
+  background: -moz-linear-gradient(top,  #bed0d0 0%, #e6eded 100%);
+  background: -webkit-linear-gradient(top,  #bed0d0 0%,#e6eded 100%);
 }
 
 h1 {
@@ -45,7 +44,7 @@ h1 {
 }
 
 .info h1 {
-  margin-top: 2.5rem;
+  margin-top: 6.5rem;
   line-height: 1.5;
   float: right;
   width: 60%;
@@ -77,6 +76,8 @@ h1 {
 .main {
   border: 1px solid lightgrey;
   box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 9px 19px -1px rgba(0,0,0,0.75);
   border-radius: .3rem;
   padding: 1rem;
   margin-top: 3rem;
@@ -103,7 +104,7 @@ h1 {
 }
 
 .main-pic {
-    background: url(/assets/pic/tasjo1200jpg);
+  background: url(/assets/pic/tasjo1200jpg);
   height: auto;
   width: 49%;
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
@@ -120,8 +121,7 @@ h1 {
 }
 
 .social {
-  list-style: none;
-  padding-top: 50px;
+  padding-top: 2rem;
 }
 
 .social li{
@@ -132,6 +132,8 @@ h1 {
 .social img{
   width: 32px;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 2px 5px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 2px 5px rgba(0,0,0,.1);
+  -moz-box-shadow:  0 1px 1px rgba(0,0,0,0.1),0 2px 5px rgba(0,0,0,.1);
   border-radius: 50%;
   transition: box-shadow .2s;
 }
