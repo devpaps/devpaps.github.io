@@ -8,7 +8,6 @@
 }
 
 body {
-  font-smooth: auto;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   color: #333;
@@ -137,14 +136,13 @@ h1 {
 }
 
 #contact h3 {
-
   display: inline;
   border: 3px solid white;
   border-radius: 10px;
   background-color: red;
   color: #fff;
   padding: .6rem .3rem;
-  transition: box-shadow: 1s ease-out;
+  transition: box-shadow 2s ease-out;
 }
 
 #contact h3:hover {
