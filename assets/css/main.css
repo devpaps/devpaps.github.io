@@ -297,8 +297,9 @@ hr {
 
 .main-pic {
   background: url(/assets/pic/tasjo1200.jpg);
-  height: 350px;
+  height: 280px;
   width: 49%;
+  margin: 2rem 0 2rem 0; 
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
@@ -406,15 +407,15 @@ hr {
 
 .main-pic {
   background: url(/assets/pic/tasjo800.jpg);
-  height: 370px;
-  width: 48%;
+  height: 200px;
+  width: 50%;
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 1rem 0 1rem 0;
+  margin: 5rem 0 5rem 0;
   float: right;
 }
 
@@ -639,7 +640,7 @@ hr {
 
 .main-pic {
   background: url(/assets/pic/tasjo500.jpg);
-  height: 300px;
+  height: 175px;
   width: 100%;
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
