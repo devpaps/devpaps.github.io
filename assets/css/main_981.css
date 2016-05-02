@@ -7,6 +7,12 @@
   -webkit-box-sizing: border-box;
 }
 
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
@@ -23,7 +29,7 @@ h1 {
 .wrapper {
   margin: 0 auto;
   max-width: 981px;
-  width: 95%;
+  width: 90%;
 }
 
 .header h1 {
@@ -44,7 +50,7 @@ h1 {
 }
 
 .info h1 {
-  margin-top: 6.5rem;
+  margin-top: 5rem;
   line-height: 1.5;
   float: right;
   width: 60%;
@@ -104,8 +110,8 @@ h1 {
 }
 
 .main-pic {
-  background: url(/assets/pic/tasjo1200jpg);
-  height: auto;
+  background: url(/assets/pic/tasjo1200.jpg);
+  height: 350px;
   width: 49%;
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
@@ -118,6 +124,11 @@ h1 {
 
 .main-text {
   text-align: center;
+}
+
+#contact h2 {
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .social {

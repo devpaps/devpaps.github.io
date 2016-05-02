@@ -7,6 +7,12 @@
   -webkit-box-sizing: border-box;
 }
 
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
@@ -22,12 +28,8 @@ h1 {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 300px;
-  width: 95%;
-}
-
-.header {
-
+  max-width: 370px;
+  width: 90%;
 }
 
 .header h1 {
@@ -65,7 +67,7 @@ h1 {
 
 .img {
   background: url(/assets/pic/me.jpg);
-  margin: 3rem 3rem 0 4rem;
+  margin: 3rem auto 0 auto;
   border-radius: 30%;
   width: 150px;
   height: 150px;
@@ -88,14 +90,13 @@ h1 {
   overflow: auto;
 }
 
-.main h2 {
+.main-text h2 {
   text-align: center;
-  margin: 0;
   padding-top: 2rem;
   font-weight: 700;
 }
 
-.main p {
+.main-text p {
   margin-top: 0;
   line-height: 1.5;
   font-style: italic;
@@ -113,8 +114,8 @@ h1 {
 }
 
 .main-pic {
-  background: url(/assets/pic/tasjo500jpg);
-  height: auto;
+  background: url(/assets/pic/tasjo500.jpg);
+  height: 300px;
   width: 100%;
   -webkit-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 2px 19px -5px rgba(0,0,0,0.75);
@@ -128,6 +129,12 @@ h1 {
 
 .main-text {
   width: 100%;
+  padding: 0;
+}
+
+#contact h2 {
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .social {
