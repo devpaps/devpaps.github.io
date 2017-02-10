@@ -1,4 +1,4 @@
 # http://regalboss.github.io
-My portfolio
+My old portfolio
 
-I'm tweaking, adding and learning by this Portfolio. So bear with me. Do you guys have any question or maybe you want som tips & trix, dont hesitate to ask me.
+Did this website as i was learning on the fly. Not something im proud of today. But when i launched it, well thats was an amazing feeling!
